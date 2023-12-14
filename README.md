@@ -1,5 +1,7 @@
 # Twitter-Sentiment-Analysis-with-MLP-CNN-and-BERT
 
+### To use the code download and save the glove_200d to the data folder before trying to run the notebooks.
+
 ## 1.	Multi-Layer Perceptron (MLP) 
 
 In Twitter_Sentiment_Analysis_MLP.ipynb, a MLP model is employed for text classification. The MLP is a feedforward neural network consisting of multiple layers, including an input layer, one or more hidden layers, and an output layer. In this case, the input layer receives the TF-IDF vectors representing the text data. The hidden layers perform a series of non-linear transformations on the input data, learning complex patterns and relationships within the features. Finally, the output layer, typically a softmax layer, produces the probability distribution over the target categories. The model is trained to minimise the categorical cross-entropy loss, allowing it to learn to predict the correct category for a given input. MLPs are versatile and can capture both simple and complex relationships in the data, making them a suitable choice for text classification tasks, especially when combined with informative features like TF-IDF vectors.
